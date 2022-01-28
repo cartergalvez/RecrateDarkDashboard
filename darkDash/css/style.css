@@ -1,0 +1,141 @@
+.sidebar{
+    background: linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+    color: white;
+    height: calc(100vh - 90px);
+    width: 230px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    box-shadow: 0px 0px 45px 0px rgb(0 0 0 / 60%);
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: white !important;
+}
+
+body{
+    color: #525f7f;
+    background-color: #1e1e2f;
+}
+
+.sidebar .sidebar-wrapper{
+    width: 100%;
+    min-height: 100%;
+    max-height: calc(100vh - 705px);
+    z-index: 4;
+    position: relative;
+    overflow: auto;
+    overflow-x: hidden !important;
+}
+
+.main-panel{
+    position: relative;
+    float: right;
+    width: 100%;
+    min-height: 100vh;
+    border-top: 2px solid #e14eca;
+    background: linear-gradient(#1e1e2f, #1e1e24);
+}
+
+.wrapper {
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+
+.main-panel>.content {
+    padding: 78px 30px 30px 280px;
+    min-height: calc(100vh - 70px);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #27293d;
+    border: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 20px 0px rgb(0 0 0 / 10%);
+}
+
+.logo {
+    position: relative;
+    padding: 0.5rem 0.7rem;
+    z-index: 4;
+    border-bottom:  solid 1px white !important;
+    width: 200px;
+}
+
+.round-img-wrapper{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.round-img{
+    background-image: url("../assets/imgs/user.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+/* .line{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: white !important;
+    max-width: 200px;
+} */
+
+.card .card-header .card-title {
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.bb-chart{
+    color: white !important;
+    fill: none;
+  }
+
+  .bb-main{
+    fill: #818286;
+  }
+
+  text{
+      fill: white !important;
+  }
+
+  .scrollable{
+      overflow-x: auto;
+      overflow-y: hidden;
+  }
+
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.card-tasks .table-full-width {
+    max-height: 320px;
+    position: relative;
+}
+
+.table-responsive::-webkit-scrollbar {
+    display: none;
+  }
+
+  tbody{
+      color: white;
+  }
