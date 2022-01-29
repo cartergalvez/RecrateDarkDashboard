@@ -139,3 +139,11 @@ body{
   tbody{
       color: white;
   }
+
+  #map {
+    height: 500px;
+}
+
+i{
+    color: white !important;
+}
