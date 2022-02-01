@@ -147,3 +147,83 @@ body{
 i{
     color: white !important;
 }
+
+
+.display-alert{
+    display: none;
+}
+
+.alert-info{
+    background-color: black;
+    color: white;
+}
+
+small{
+    color: white;
+}
+
+.form-control:focus{
+    color: white;
+    background-color: #27293d;
+    border: #c852e6 solid 2px;
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+.form-control{
+    color: white;
+    background-color: #27293d;
+    border: #282d45 solid 2px;
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+.form-control:disabled{
+    color: darkslategray;
+    background-color: #1d253b;
+    border: #282d45 solid 2px;
+}
+
+.card .card-footer { 
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+    padding: 15px;
+}
+
+.card-user .author {
+    text-align: center;
+    text-transform: none;
+    margin-top: 25px;
+}
+
+input{
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+.card-description{
+    color: white;
+}
+
+.avatar {
+    width: 124px;
+    height: 124px;
+    border: 5px solid #2b3553;
+    border-bottom-color: transparent;
+    background-color: transparent;
+    position: relative;    
+    border-radius: 60px;
+}
+
+.card .image {
+    overflow: hidden;
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-description {
+    color: white;
+    position: relative;
+    top: -55px;
+}
